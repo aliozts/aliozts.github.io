@@ -1,0 +1,90 @@
+{
+  "home": {
+    "hero": {
+      "title": "Avukatlık Hizmetleri & Hukuki Danışmanlık",
+      "subtitle": "İstanbul Levent’te bulunan ofisimizde hukuki süreçlerinizi en doğru ve kazançlı şekilde yönetmek için buradayız."
+    },
+    "commitment": {
+      "title": "Hizmet Anlayışımız",
+      "features": [
+        {
+          "title": "HUKUKİ DANIŞMANLIK",
+          "description": "Güncel mevzuat bilgimizle, bireyler ve şirketler için oluşabilecek hukuki riskleri ortaya çıkmadan yönetme ve mevcut hukuki problemlere çözüm sağlama amacıyla sözleşme ve dilekçe hazırlama da dahil olmak üzere sözlü ve yazılı olarak hukuki danışmanlık vermekteyiz."
+        },
+        {
+          "title": "AVUKATLIK HİZMETLERİ",
+          "description": "Hukuki uyuşmazlığın analizini yaparak bireyleri ve şirketleri dava süreçlerinde en iyi sonuca ulaştırmak ve dava süreçlerinin karmaşıklığıyla başa çıkmanıza yardımcı olmak için yanınızdayız. Ticaret hukuku, aile hukuku, kira hukuku, iş hukuku, deniz iş hukuku, sigorta hukuku, tüketici hukuku, sözleşmeler hukuku ve icra-iflas hukuku alanlarında avukatlık desteği ve hizmeti vermekteyiz."
+        }
+      ]
+    }
+  },
+  "portfolio": {
+    "title": "Çalışma Alanlarımız",
+    "practiceAreas": [
+      {
+        "title": "Ticaret Hukuku",
+        "content": "Ticaret hukukunun konusuna giren bono, poliçe, çek ve sair kambiyo evraklarına ilişkin takip ve davaların açılması, menfi tespit davası açılması ve takibi, kıymetli evrakların kaybolmasından doğan davalar, istirdat davası açılması ve takibi, tüm ticari işlerden kaynaklı alacakların tahsil ve takibine ilişkin davalar, Anonim Şirket, Limited Şirket, Kollektif Şirketi, Komandit Şirket ve Şahıs Şirketlerinden doğan tüm tazminat ve davaların açılması ve takibi ile benzeri işlerle, ticaret hukukunun çeşitli alanlarında hizmet vermekteyiz."
+      },
+      {
+        "title": "Aile Hukuku",
+        "content": "Aile hukukunun konusuna giren evlenme, nişanlanma, boşanma, nafaka, velayet, mal rejimi, soy bağı, ziynet eşyaları gibi kişisel ve malvarlığı ilişkilerine dair uyuşmazlıkların çözümünde; anlaşmalı boşanma protokolünün hazırlanması, boşanma davasının açılması ve takibi, mal rejiminin tasfiyesi davasının açılması ve takibi, manevi tazminat talebinde bulunma, nafaka talebinde buluma, velayet talebinde bulunma, ziynet eşyaları talebinde bulunma, soy bağı ve babalık davasının açılması ve takibi, kadının soyadı değişimi davası ve takibi ile benzeri işlerle, aile hukukunun çeşitli alanlarında hizmet vermekteyiz."
+      },
+      {
+        "title": "Kira Hukuku",
+        "content": "Kiraya veren ile kiracı arasındaki kira ilişkisinden kaynaklanan uyuşmazlıkların çözümünde; kira sözleşmesi hazırlanması, kira tespit davası açılması ve takibi, kiralananın tahliyesi davası açılması ve takibi, ihtarname gönderme gibi kira hukukunun çeşitli alanlarında hizmet vermekteyiz."
+      },
+      {
+        "title": "İş Hukuku",
+        "content": "İşçi ile işveren arasında iş ilişkisinden kaynaklanan uyuşmazlıkların çözümünde; iş sözleşmesinin hazırlanması, arabuluculuk sürecinin takibi, kıdem tazminatı ihbar tazminatı, yıllık izin ücreti, fazla mesai ücreti, hafta tatili ücreti, ulusal bayram ve genel tatil ücreti, ücret, prim, ikramiye ve diğer işçilik haklarının tazmini bakımından dava açılması ve takibi, iş sözleşmesinin haksız ve geçersiz feshedilmesi halinde işe iade davası açılması ve takibi, işçilerin sigortalı gösterilmediği ve sigorta girişi yapılmadığı durumlarda hizmet tespiti davalarının açılması ve takibi, iş akdinin sonlandırılması aşamasında fesih bildirimi, iş kazasından kaynaklı tazminat ve ceza davası açılması ve takibi gibi iş hukukunun çeşitli alanlarında hizmet vermekteyiz."
+      },
+      {
+        "title": "Sigorta Hukuku",
+        "content": "Sigorta ilişkilerinden doğan uyuşmazlıkların çözümünde; sigorta ile ilgili alacak ve tazminat davalarının takibi, Sigorta Tahkim Komisyonuna başvuru yapılması ve takibi, trafik kazalarına ilişkin tazminat taleplerinin takibi, araç değer kaybı talebi, hayat ve sağlık sigortalarına ilişkin talepler ve benzeri işlerle, sigorta hukukunun çeşitli alanlarında hizmet vermekteyiz."
+      },
+      {
+        "title": "Tüketici Hukuku",
+        "content": "Tüketici ile satıcı/hizmet sağlayıcı arasında kurulan tüketici ilişkilerinden kaynaklanan uyuşmazlıkların çözümünde; Tüketici Mahkemeleri ile Tüketici Hakem Heyetlerinde görülen uyuşmazlıkların takibi ve çözümlenmesi, tüketici şikayetlerinin diğer resmi kurumlar nezdinde takibi ve sonuçlandırılması, ayıplı mal ve hizmetten kaynaklı tazminat talepleri ve benzeri işlerle, tüketici hukukunun çeşitli alanlarında hizmet vermekteyiz."
+      },
+      {
+        "title": "Sözleşmeler Hukuku",
+        "content": "Kira sözleşmesi, iş sözleşmesi, franchising sözleşmesi, gizlilik sözleşmesi, hizmet sözleşmesi, KVKK’na ilişkin aydınlatma metni, açık rıza metni, çerez politikası yazımı ve benzeri sözleşmelerin hazırlanması, müzakere edilmesi, yorumlanması ve uygulanması konularında hizmet vermekteyiz."
+      },
+      {
+        "title": "İcra ve İflas Hukuku",
+        "content": "Alacak ilişkilerinden doğan uyuşmazlıklarda; icra takiplerinin başlatılması, icra takiplerine ilişkin olarak taşınır ve taşınmaz mallar üzerine haciz konulması ve satışın gerçekleştirilmesi, borçlu tarafından yapılan haksız itirazlara karşı itirazın kaldırılması ve itirazın iptali davalarının açılması ve takibi, müvekkil aleyhine başlatılmış olan icra takiplerine karşı itiraz edilmesi, müvekkile karşı açılan haksız takiplere ilişkin menfi tespit ve istirdat davalarının açılması ve takibi ile benzeri işlerle, icra ve iflas hukukunun çeşitli alanlarında hizmet vermekteyiz."
+      }
+    ]
+  },
+  "blogs": [
+    {
+      "id": "kidem-tazminati",
+      "title": "Kıdem Tazminatı",
+      "description": "Kıdem tazminatı, işçinin çeşitli sebeplerle işyerinden ayrılırken, işveren tarafından kanun gereği ödenmesi gereken toplu bir paradır.",
+      "file": "posts/kidem-tazminati.md"
+    },
+    {
+      "id": "kira-tespit-davasi",
+      "title": "Kira Tespit Davası",
+      "description": "5 yılı aşan bir kira sözleşmesinde, kira bedelinin mahkeme tarafından rayiçlere göre belirlenmesinin talep edildiği davaya, kira tespit davası denmektedir.",
+      "file": "posts/kira-tespit-davasi.md"
+    },
+        {
+      "id": "kira-tespit-davasi",
+      "title": "Kaza Yaptım, Aracımın Maddi Kayıplarını Nasıl Tazmin Edebilirim?",
+      "description": "Kazadan dolayı gerçekleşen maddi kayıplar nasıl tazmin edilir.",
+      "file": "posts/kaza-maddi-kayiplar.md"
+    },
+        {
+      "id": "kira-tespit-davasi",
+      "title": "Anlaşmalı Boşanma Davası",
+      "description": "Anlaşmalı Boşanma Davası nasıl yapılır",
+      "file": "posts/anlasmali-bosanma-davasi.md"
+    },
+        {
+      "id": "kira-tespit-davasi",
+      "title": "İşçiye İmzalatılan İbranamenin Geçerliliği",
+      "description": "İşçiye imzalatılan ibraname hangi şartlarda ve ne kadar geçerlidir",
+      "file": "posts/isci-imzalatilan-ibraname.md"
+    }
+  ]
+}
