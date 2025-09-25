@@ -18,6 +18,23 @@
         .nav-link:hover, .nav-link.active {
             color: #1D4ED8;
         }
+
+        /* Responsive Adjustments */
+        @media (max-width: 768px) {
+            .bg-white {
+                flex-direction: column-reverse; /* Ensures text comes before image */
+            }
+
+            img {
+                width: 100%;
+                height: auto; /* Maintains aspect ratio */
+                max-height: 400px; /* Adds a max height for better display on smaller screens */
+            }
+
+            .text-lg {
+                font-size: 1rem; /* Adjust text size for readability */
+            }
+        }
     </style>
 </head>
 <body class="bg-gray-50 text-gray-800" data-title="About Me" data-active-link="about.html">
@@ -47,7 +64,8 @@
                         rahat bir şekilde atlatmanız için profesyonel hizmet sunmaktır. Bilgi birikimimiz ve
                         tecrübelerimiz ile en iyi şekilde hukuki hizmet almanız için çalışıyoruz.</p>
                     <p class="text-lg leading-relaxed mb-4"><strong>Av. Deniz Naz Baydar</strong></p>
-                    <p class="text-lg leading-relaxed mb-4">Marmara Üniversitesi Hukuk Fakültesi’nden almış olduğu eğitiminin
+                    <p class="text-lg leading-relaxed mb-4">Marmara Üniversitesi Hukuk Fakültesi’nden almış olduğu
+                        eğitiminin
                         ardından 2018 yılında mezun olarak İstanbul Barosu bünyesinde avukatlık ruhsatnamesi almış ve
                         çeşitli hukuk bürolarında avukat ve yönetici avukat sıfatlarıyla çalışmıştır.</p>
                     <p class="text-lg leading-relaxed mb-4">Yüksek lisansını Galatasaray Üniversitesi Hukuk
