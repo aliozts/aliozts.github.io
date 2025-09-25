@@ -58,32 +58,32 @@
   "blogs": [
     {
       "id": "kidem-tazminati",
-      "title": " İş ilişkisi sonlandıktan sonra işyerinden ayrılan işçi, nasıl kıdem tazminatını alabilir?",
-      "description": "Kıdem tazminatı, işçinin çeşitli sebeplerle işyerinden ayrılırken, işveren tarafından kanun gereği ödenmesi gereken toplu bir paradır.",
+      "title": " Kıdem Tazminatı",
+      "description": "İş ilişkisi sonlandıktan sonra işyerinden ayrılan işçi, nasıl kıdem tazminatını alabilir?",
       "file": "posts/kidem-tazminati.md"
     },
     {
       "id": "kira-tespit-davasi",
-      "title": "Kira tespit davası nasıl açılır, dava süreci nasıl işler?",
-      "description": "5 yılı aşan bir kira sözleşmesinde, kira bedelinin mahkeme tarafından rayiçlere göre belirlenmesinin talep edildiği davaya, kira tespit davası denmektedir.",
+      "title": "Kira Tespit Davası",
+      "description": "Kira tespit davası nasıl açılır, dava süreci nasıl işler?",
       "file": "posts/kira-tespit-davasi.md"
     },
         {
       "id": "kaza-tazminat",
-      "title": "Kaza yaptıktan sonra araçta oluşan maddi kayıplar nasıl tazmin edilir?",
-      "description": "Kazadan dolayı gerçekleşen maddi kayıplar nasıl tazmin edilir.",
+      "title": "Trafik Kazası Sonucu Araçta Oluşan Maddi Zararların Tazmini",
+      "description": "Kaza yaptıktan sonra araçta oluşan maddi kayıplar nasıl tazmin edilir?",
       "file": "posts/kaza-maddi-kayiplar.md"
     },
         {
       "id": "anlasmali-bosanma",
-      "title": "Anlaşmalı boşanma davası nasıl açılır, dava süreci nasıl işler?",
-      "description": "Anlaşmalı Boşanma Davası nasıl yapılır",
+      "title": "Anlaşmalı Boşanma Davası",
+      "description": "Anlaşmalı boşanma davası nasıl açılır, dava süreci nasıl işler?",
       "file": "posts/anlasmali-bosanma-davasi.md"
     },
         {
       "id": "is-ibraname",
-      "title": " İş ilişkisinin sonunda işçiye imzalatılan ibraname hangi şartlarda geçerli sayılır?",
-      "description": "İşçiye imzalatılan ibraname hangi şartlarda ve ne kadar geçerlidir",
+      "title": " İşçiye İmzalatılan İbranamenin Geçerliliği",
+      "description": "İş ilişkisinin sonunda işçiye imzalatılan ibraname hangi şartlarda geçerli sayılır?",
       "file": "posts/isci-imzalatilan-ibraname.md"
     }
   ]
