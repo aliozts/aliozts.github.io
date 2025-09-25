@@ -58,31 +58,31 @@
   "blogs": [
     {
       "id": "kidem-tazminati",
-      "title": "Kıdem Tazminatı",
+      "title": " İş ilişkisi sonlandıktan sonra işyerinden ayrılan işçi, nasıl kıdem tazminatını alabilir?",
       "description": "Kıdem tazminatı, işçinin çeşitli sebeplerle işyerinden ayrılırken, işveren tarafından kanun gereği ödenmesi gereken toplu bir paradır.",
       "file": "posts/kidem-tazminati.md"
     },
     {
       "id": "kira-tespit-davasi",
-      "title": "Kira Tespit Davası",
+      "title": "Kira tespit davası nasıl açılır, dava süreci nasıl işler?",
       "description": "5 yılı aşan bir kira sözleşmesinde, kira bedelinin mahkeme tarafından rayiçlere göre belirlenmesinin talep edildiği davaya, kira tespit davası denmektedir.",
       "file": "posts/kira-tespit-davasi.md"
     },
         {
-      "id": "kira-tespit-davasi",
-      "title": "Kaza Yaptım, Aracımın Maddi Kayıplarını Nasıl Tazmin Edebilirim?",
+      "id": "kaza-tazminat",
+      "title": "Kaza yaptıktan sonra araçta oluşan maddi kayıplar nasıl tazmin edilir?",
       "description": "Kazadan dolayı gerçekleşen maddi kayıplar nasıl tazmin edilir.",
       "file": "posts/kaza-maddi-kayiplar.md"
     },
         {
-      "id": "kira-tespit-davasi",
-      "title": "Anlaşmalı Boşanma Davası",
+      "id": "anlasmali-bosanma",
+      "title": "Anlaşmalı boşanma davası nasıl açılır, dava süreci nasıl işler?",
       "description": "Anlaşmalı Boşanma Davası nasıl yapılır",
       "file": "posts/anlasmali-bosanma-davasi.md"
     },
         {
-      "id": "kira-tespit-davasi",
-      "title": "İşçiye İmzalatılan İbranamenin Geçerliliği",
+      "id": "is-ibraname",
+      "title": " İş ilişkisinin sonunda işçiye imzalatılan ibraname hangi şartlarda geçerli sayılır?",
       "description": "İşçiye imzalatılan ibraname hangi şartlarda ve ne kadar geçerlidir",
       "file": "posts/isci-imzalatilan-ibraname.md"
     }
