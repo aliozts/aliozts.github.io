@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const activeLink = body.dataset.activeLink || 'index.html';
 
     const setupLayout = (title, link) => {
-        document.title = `${title} - John Doe, Attorney at Law`;
+        document.title = `${title} - Avukat Deniz Naz Baydar`;
 
         fetch('header.html')
             .then(response => {
