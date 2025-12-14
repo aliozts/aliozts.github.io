@@ -18,6 +18,15 @@ document.addEventListener('DOMContentLoaded', () => {
                 const titleElement = document.getElementById('post-title');
                 if (titleElement) titleElement.textContent = post.title;
 
+                // Render optional post image if provided in content.json
+                const imageWrapper = document.getElementById('post-image-wrapper');
+                const imageEl = document.getElementById('post-image');
+                if (post.image && imageWrapper && imageEl) {
+                    imageEl.src = post.image;
+                    imageEl.alt = post.title || 'Blog post image';
+                    imageWrapper.classList.remove('hidden');
+                }
+
                 // Fetch the markdown file content
                 fetch(post.file)
                     .then(response => response.text())

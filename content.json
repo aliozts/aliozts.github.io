@@ -82,9 +82,23 @@
     },
         {
       "id": "is-ibraname",
-      "title": " İşçiye İmzalatılan İbranamenin Geçerliliği",
+      "title": "İşçiye İmzalatılan İbranamenin Geçerliliği",
       "description": "İş ilişkisinin sonunda işçiye imzalatılan ibraname hangi şartlarda geçerli sayılır?",
       "file": "posts/isci-imzalatilan-ibraname.md"
+    },
+            {
+      "id": "alt-isveren",
+      "title": " ALT İŞVERENLİK İLİŞKİSİ",
+      "description": "Alt işverenlik ilişkisi nasıl kurulur? Muvazaalı alt işverenlik ilişkisinin hukuki ve cezai sonuçları nelerdir?",
+      "file": "posts/alt-isverenlik.md",
+      "image": "post_images/isveren-post-image.jpeg"
+    },
+            {
+      "id": "vesayet-vasi-dava",
+      "title": "VESAYET DAVASI VE VASİ TAYİNİ",
+      "description": "Hangi hallerde kişiye vasi atanır? Nasıl vasi atanılır?",
+      "file": "posts/vesayet-vasi-dava.md",
+      "image": "post_images/vasiyet-vasi-dava-image.jpeg"
     }
   ]
 }
