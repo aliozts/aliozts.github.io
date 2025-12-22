@@ -99,6 +99,13 @@
       "description": "Hangi hallerde kişiye vasi atanır? Nasıl vasi atanılır?",
       "file": "posts/vesayet-vasi-dava.md",
       "image": "post_images/vasiyet-vasi-dava-image.jpeg"
+    },
+                {
+      "id": "esasli-degisiklik",
+      "title": "ÇALIŞMA KOŞULLARINDA ESASLI DEĞİŞİKLİK",
+      "description": "İş ilişkisinde ücret, çalışma süresi, çalışma yeri, ünvan vb. çalışma koşullarında nasıl değişiklik yapılır? Yargıtay kararlarına göre neler esaslı değişiklik sayılır? Esaslı değişikliğin hukuki sonuçları nelerdir?",
+      "file": "posts/esasli-degisiklik.md",
+      "image": "post_images/esasli-degisiklik-image.jpeg"
     }
   ]
 }
