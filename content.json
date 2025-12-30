@@ -106,6 +106,13 @@
       "description": "İş ilişkisinde ücret, çalışma süresi, çalışma yeri, ünvan vb. çalışma koşullarında nasıl değişiklik yapılır? Yargıtay kararlarına göre neler esaslı değişiklik sayılır? Esaslı değişikliğin hukuki sonuçları nelerdir?",
       "file": "posts/esasli-degisiklik.md",
       "image": "post_images/esasli-degisiklik-image.jpeg"
+    },
+                    {
+      "id": "maas-haczi",
+      "title": "MAAŞ HACZİ",
+      "description": "Maaş haczi nedir? Hangi gelirler haczedilebilir? Maaş haczi nasıl kaldırılır?",
+      "file": "posts/maas-haczi.md",
+      "image": "post_images/maas-haczi.jpeg"
     }
   ]
 }
