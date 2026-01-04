@@ -1,9 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>Hakkımızda – Av. Deniz Naz Baydar</title>
+    <meta name="description" content="Av. Deniz Naz Baydar hakkında bilgiler: uzmanlık alanları, deneyim ve İstanbul Levent'te sunulan avukatlık ve hukuki danışmanlık hizmetleri." />
+    <meta name="keywords" content="avukat deniz naz baydar, istanbul avukat hakkında, levent hukuk bürosu, avukat profili, marmara hukuk, galatasaray hukuk, deneyimli avukat istanbul" />
+
+    <link rel="icon" href="/images/buro_logo.png" sizes="any" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/buro_logo.png" />
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="canonical" href="https://deniznazbaydar.av.tr/about.html" />
+    <link rel="alternate" href="https://deniznazbaydar.av.tr/about.html" hreflang="tr-TR" />
+
+    <!-- Open Graph / Twitter -->
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="tr_TR" />
+    <meta property="og:site_name" content="Av. Deniz Naz Baydar" />
+    <meta property="og:title" content="Hakkımızda – Av. Deniz Naz Baydar" />
+    <meta property="og:description" content="Uzmanlık alanlarımız ve İstanbul Levent'te sunduğumuz avukatlık hizmetleri hakkında bilgi alın." />
+    <meta property="og:url" content="https://deniznazbaydar.av.tr/about.html" />
+    <meta property="og:image" content="https://deniznazbaydar.av.tr/images/portrait.jpeg" />
+    <meta property="og:image:width" content="800" />
+    <meta property="og:image:height" content="600" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Hakkımızda – Av. Deniz Naz Baydar" />
+    <meta name="twitter:description" content="Uzmanlık alanlarımız ve İstanbul Levent'te sunduğumuz avukatlık hizmetleri hakkında bilgi alın." />
+    <meta name="twitter:image" content="https://deniznazbaydar.av.tr/images/portrait.jpeg" />
+
+    <meta name="robots" content="index,follow" />
+    <meta name="theme-color" content="#1D4ED8" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap" rel="stylesheet">
     <style>
@@ -37,18 +66,18 @@
         }
     </style>
 </head>
-<body class="bg-gray-50 text-gray-800" data-title="About Me" data-active-link="about.html">
+<body class="bg-gray-50 text-gray-800" data-title="Hakkımızda" data-active-link="about.html">
 
 <div id="header-placeholder"></div>
 
-<main class="pt-24"> <!-- Increased padding-top -->
+<main id="main-content" class="pt-24"> <!-- Increased padding-top -->
     <section class="container mx-auto px-6 py-12">
         <div class="max-w-5xl mx-auto">
             <h2 class="text-4xl font-bold text-center mb-12">HAKKIMIZDA</h2>
             <div class="bg-white p-8 rounded-lg shadow-md flex flex-col md:flex-row items-center gap-12">
                 <div class="md:w-1/3 flex-shrink-0">
-                    <img src="images/portrait.jpeg" alt="Lawyer Portrait"
-                         class="rounded-lg shadow-lg w-full h-[600px] object-cover">
+                    <img src="images/portrait.jpeg" alt="Avukat Deniz Naz Baydar portre fotoğrafı"
+                         class="rounded-lg shadow-lg w-full h-[600px] object-cover" loading="lazy" width="800" height="600">
                 </div>
                 <div class="md:w-2/3">
                     <p class="text-lg leading-relaxed mb-4">Müvekkillerimize hukukun her alanında hizmet vermekle
@@ -77,6 +106,67 @@
         </div>
     </section>
 </main>
+
+<!-- Local Business (LegalService) JSON-LD -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LegalService",
+  "name": "Av. Deniz Naz Baydar",
+  "url": "https://deniznazbaydar.av.tr/",
+  "image": "https://deniznazbaydar.av.tr/images/portrait.jpeg",
+  "logo": "https://deniznazbaydar.av.tr/images/buro_logo.png",
+  "telephone": "+905343349235",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Esentepe Mahallesi Talatpaşa Caddesi No: 5 / 1",
+    "addressLocality": "Şişli",
+    "addressRegion": "İstanbul",
+    "postalCode": "34394",
+    "addressCountry": "TR"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "41.0818",
+    "longitude": "29.0088"
+  },
+  "areaServed": [
+    {"@type": "City", "name": "İstanbul"},
+    {"@type": "State", "name": "Şişli"},
+    {"@type": "State", "name": "Levent"}
+  ],
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "opens": "09:00",
+      "closes": "18:00"
+    }
+  ]
+}
+</script>
+
+<!-- Breadcrumb Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Ana Sayfa",
+      "item": "https://deniznazbaydar.av.tr/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Hakkımızda",
+      "item": "https://deniznazbaydar.av.tr/about.html"
+    }
+  ]
+}
+</script>
 
 <script src="layout.js" defer></script>
 

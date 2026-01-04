@@ -2,10 +2,17 @@ document.addEventListener('DOMContentLoaded', () => {
     fetch('content.json')
         .then(response => response.json())
         .then(data => {
-            const blogPosts = data.blogs;
+            let blogPosts = data.blogs;
             const blogContainer = document.getElementById('blog-posts-container');
 
             if (blogContainer && blogPosts) {
+                // Sort blog posts by date (newest first)
+                blogPosts = blogPosts.sort((a, b) => {
+                    const dateA = new Date(a.date);
+                    const dateB = new Date(b.date);
+                    return dateB - dateA; // Descending order (newest first)
+                });
+
                 blogContainer.innerHTML = ''; // Clear static content
                 blogPosts.forEach(post => {
                     const postElement = document.createElement('div');

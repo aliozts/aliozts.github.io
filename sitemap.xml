@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Main Pages -->
+  <url>
+    <loc>https://deniznazbaydar.av.tr/</loc>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://deniznazbaydar.av.tr/about.html</loc>
+    <changefreq>yearly</changefreq>
+  </url>
+  <url>
+    <loc>https://deniznazbaydar.av.tr/portfolio.html</loc>
+    <changefreq>yearly</changefreq>
+  </url>
+  <url>
+    <loc>https://deniznazbaydar.av.tr/blog.html</loc>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://deniznazbaydar.av.tr/contact.html</loc>
+    <changefreq>yearly</changefreq>
+  </url>
+
+  <!-- Blog Posts -->
+  <url>
+    <loc>https://deniznazbaydar.av.tr/blog-post.html?id=kidem-tazminati</loc>
+    <changefreq>yearly</changefreq>
+  </url>
+  <url>
+    <loc>https://deniznazbaydar.av.tr/blog-post.html?id=kira-tespit-davasi</loc>
+    <changefreq>yearly</changefreq>
+  </url>
+  <url>
+    <loc>https://deniznazbaydar.av.tr/blog-post.html?id=kaza-tazminat</loc>
+    <changefreq>yearly</changefreq>
+  </url>
+  <url>
+    <loc>https://deniznazbaydar.av.tr/blog-post.html?id=anlasmali-bosanma</loc>
+    <changefreq>yearly</changefreq>
+  </url>
+  <url>
+    <loc>https://deniznazbaydar.av.tr/blog-post.html?id=is-ibraname</loc>
+    <changefreq>yearly</changefreq>
+  </url>
+  <url>
+    <loc>https://deniznazbaydar.av.tr/blog-post.html?id=alt-isveren</loc>
+    <changefreq>yearly</changefreq>
+  </url>
+  <url>
+    <loc>https://deniznazbaydar.av.tr/blog-post.html?id=vesayet-vasi-dava</loc>
+    <changefreq>yearly</changefreq>
+  </url>
+  <url>
+    <loc>https://deniznazbaydar.av.tr/blog-post.html?id=esasli-degisiklik</loc>
+    <changefreq>yearly</changefreq>
+  </url>
+  <url>
+    <loc>https://deniznazbaydar.av.tr/blog-post.html?id=maas-haczi</loc>
+    <changefreq>yearly</changefreq>
+  </url>
+</urlset>

@@ -4,7 +4,10 @@ document.addEventListener('DOMContentLoaded', () => {
     const activeLink = body.dataset.activeLink || 'index.html';
 
     const setupLayout = (title, link) => {
-        document.title = `${title} - Avukat Deniz Naz Baydar`;
+        // Only set the title if it's empty; otherwise keep the static/SEO-optimized one
+        if (!document.title || document.title.trim() === '') {
+            document.title = `${title} - Avukat Deniz Naz Baydar`;
+        }
 
         fetch('header.html')
             .then(response => {
@@ -25,9 +28,12 @@ document.addEventListener('DOMContentLoaded', () => {
                 });
 
                 const mobileMenuButton = document.getElementById('mobile-menu-button');
-                if (mobileMenuButton) {
+                const mobileMenu = document.getElementById('mobile-menu');
+                if (mobileMenuButton && mobileMenu) {
                     mobileMenuButton.addEventListener('click', function() {
-                        document.getElementById('mobile-menu').classList.toggle('hidden');
+                        const isExpanded = mobileMenuButton.getAttribute('aria-expanded') === 'true';
+                        mobileMenuButton.setAttribute('aria-expanded', !isExpanded);
+                        mobileMenu.classList.toggle('hidden');
                     });
                 }
             })

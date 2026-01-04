@@ -1,10 +1,38 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>İletişim – Av. Deniz Naz Baydar</title>
+    <meta name="description" content="İstanbul Levent'te bulunan hukuk büromuza ulaşın: adres, telefon, e-posta ve çalışma saatleri." />
+    <meta name="keywords" content="avukat iletişim istanbul, levent avukat randevu, hukuk bürosu iletişim, avukat telefon, istanbul avukat adres, şişli hukuk bürosu" />
+
+    <link rel="icon" href="/images/buro_logo.png" sizes="any" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/buro_logo.png" />
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="canonical" href="https://deniznazbaydar.av.tr/contact.html" />
+    <link rel="alternate" href="https://deniznazbaydar.av.tr/contact.html" hreflang="tr-TR" />
+
+    <!-- Open Graph / Twitter -->
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="tr_TR" />
+    <meta property="og:site_name" content="Av. Deniz Naz Baydar" />
+    <meta property="og:title" content="İletişim – Av. Deniz Naz Baydar" />
+    <meta property="og:description" content="Adres, telefon, e-posta ve çalışma saatleri. Randevu için bize ulaşın." />
+    <meta property="og:url" content="https://deniznazbaydar.av.tr/contact.html" />
+    <meta property="og:image" content="https://deniznazbaydar.av.tr/images/work_location.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="450" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="İletişim – Av. Deniz Naz Baydar" />
+    <meta name="twitter:description" content="Adres, telefon, e-posta ve çalışma saatleri. Randevu için bize ulaşın." />
+    <meta name="twitter:image" content="https://deniznazbaydar.av.tr/images/work_location.png" />
+
+    <meta name="robots" content="index,follow" />
+    <meta name="theme-color" content="#1D4ED8" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap" rel="stylesheet">
     <style>
@@ -13,16 +41,16 @@
         .nav-link:hover, .nav-link.active { color: #1D4ED8; }
     </style>
 </head>
-<body class="bg-gray-50 text-gray-800" data-title="Contact" data-active-link="contact.html">
+<body class="bg-gray-50 text-gray-800" data-title="İletişim" data-active-link="contact.html">
 
     <div id="header-placeholder"></div>
 
-    <main class="pt-24"> <!-- Adjusted padding-top -->
+    <main id="main-content" class="pt-24"> <!-- Adjusted padding-top -->
         <section class="container mx-auto px-6 py-12">
              <div class="max-w-5xl mx-auto text-center">
                 <h2 class="text-4xl font-bold mb-12">BİZE ULAŞIN</h2>
                 <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                    <img src="images/work_location.png" alt="A photo of the office location" class="w-full h-80 object-cover">
+                    <img src="images/work_location.png" alt="Ofis konumu fotoğrafı" class="w-full h-80 object-cover" loading="lazy" width="1200" height="450">
                     <div class="p-8 text-left">
                         <div class="space-y-6">
                             <div class="flex items-start gap-4">
@@ -47,6 +75,67 @@
             </div>
         </section>
     </main>
+
+    <!-- Local Business (LegalService) JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LegalService",
+      "name": "Av. Deniz Naz Baydar",
+      "url": "https://deniznazbaydar.av.tr/",
+      "image": "https://deniznazbaydar.av.tr/images/portrait.jpeg",
+      "logo": "https://deniznazbaydar.av.tr/images/buro_logo.png",
+      "telephone": "+905343349235",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Esentepe Mahallesi Talatpaşa Caddesi No: 5 / 1",
+        "addressLocality": "Şişli",
+        "addressRegion": "İstanbul",
+        "postalCode": "34394",
+        "addressCountry": "TR"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "41.0818",
+        "longitude": "29.0088"
+      },
+      "areaServed": [
+        {"@type": "City", "name": "İstanbul"},
+        {"@type": "State", "name": "Şişli"},
+        {"@type": "State", "name": "Levent"}
+      ],
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+          "opens": "09:00",
+          "closes": "18:00"
+        }
+      ]
+    }
+    </script>
+
+    <!-- Breadcrumb Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://deniznazbaydar.av.tr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "İletişim",
+          "item": "https://deniznazbaydar.av.tr/contact.html"
+        }
+      ]
+    }
+    </script>
 
     <script src="layout.js" defer></script>
 

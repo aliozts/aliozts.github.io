@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+
+# Disallow test and development files
+Disallow: /test.html
+
+# Disallow scripts and data files
+Disallow: /*.js$
+Disallow: /*.json$
+
+# Disallow IDE files
+Disallow: /.idea/
+
+Sitemap: https://deniznazbaydar.av.tr/sitemap.xml

@@ -1,0 +1,27 @@
+{
+  "name": "Av. Deniz Naz Baydar - Hukuk Bürosu",
+  "short_name": "Deniz Naz Baydar",
+  "description": "İstanbul Levent'te aile, iş, kira, ticaret, sigorta ve icra-iflas hukuku alanlarında avukatlık ve hukuki danışmanlık hizmetleri.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f9fafb",
+  "theme_color": "#1D4ED8",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/images/buro_logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/images/buro_logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["legal", "business", "professional"],
+  "lang": "tr",
+  "dir": "ltr"
+}
