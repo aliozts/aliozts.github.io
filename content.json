@@ -63,7 +63,13 @@
       "file": "posts/kidem-tazminati.md",
       "date": "2025-11-01",
       "category": "İş Hukuku",
-      "tags": ["kıdem tazminatı", "işçi hakları", "iş hukuku", "işten çıkış", "tazminat"],
+      "tags": [
+        "kıdem tazminatı",
+        "işçi hakları",
+        "iş hukuku",
+        "işten çıkış",
+        "tazminat"
+      ],
       "keywords": "kıdem tazminatı, işçi hakları, iş hukuku avukatı istanbul, kıdem tazminatı davası, işten çıkış tazminatı"
     },
     {
@@ -73,40 +79,64 @@
       "file": "posts/kira-tespit-davasi.md",
       "date": "2025-11-08",
       "category": "Kira Hukuku",
-      "tags": ["kira tespit davası", "kira hukuku", "kiracı hakları", "kira bedeli", "dava"],
+      "tags": [
+        "kira tespit davası",
+        "kira hukuku",
+        "kiracı hakları",
+        "kira bedeli",
+        "dava"
+      ],
       "keywords": "kira tespit davası, kira hukuku avukatı istanbul, kira bedeli tespiti, kiracı hakları, kira davası"
     },
-        {
+    {
       "id": "kaza-tazminat",
       "title": "Trafik Kazası Sonucu Araçta Oluşan Maddi Zararların Tazmini",
       "description": "Kaza yaptıktan sonra araçta oluşan maddi kayıplar nasıl tazmin edilir?",
       "file": "posts/kaza-maddi-kayiplar.md",
       "date": "2025-11-15",
       "category": "Sigorta Hukuku",
-      "tags": ["trafik kazası", "sigorta tazminatı", "maddi zarar", "araç hasarı", "sigorta hukuku"],
+      "tags": [
+        "trafik kazası",
+        "sigorta tazminatı",
+        "maddi zarar",
+        "araç hasarı",
+        "sigorta hukuku"
+      ],
       "keywords": "trafik kazası tazminatı, sigorta hukuku avukatı istanbul, araç hasar tazminatı, kaza tazminat davası, maddi zarar"
     },
-        {
+    {
       "id": "anlasmali-bosanma",
       "title": "Anlaşmalı Boşanma Davası",
       "description": "Anlaşmalı boşanma davası nasıl açılır, dava süreci nasıl işler?",
       "file": "posts/anlasmali-bosanma-davasi.md",
       "date": "2025-11-22",
       "category": "Aile Hukuku",
-      "tags": ["anlaşmalı boşanma", "boşanma davası", "aile hukuku", "boşanma protokolü", "boşanma"],
+      "tags": [
+        "anlaşmalı boşanma",
+        "boşanma davası",
+        "aile hukuku",
+        "boşanma protokolü",
+        "boşanma"
+      ],
       "keywords": "anlaşmalı boşanma davası, boşanma avukatı istanbul, boşanma protokolü, aile hukuku avukatı, boşanma süreci"
     },
-        {
+    {
       "id": "is-ibraname",
       "title": "İşçiye İmzalatılan İbranamenin Geçerliliği",
       "description": "İş ilişkisinin sonunda işçiye imzalatılan ibraname hangi şartlarda geçerli sayılır?",
       "file": "posts/isci-imzalatilan-ibraname.md",
       "date": "2025-11-29",
       "category": "İş Hukuku",
-      "tags": ["ibraname", "işçi hakları", "iş hukuku", "iş sözleşmesi", "işten çıkış"],
+      "tags": [
+        "ibraname",
+        "işçi hakları",
+        "iş hukuku",
+        "iş sözleşmesi",
+        "işten çıkış"
+      ],
       "keywords": "ibraname geçerliliği, işçi ibranamesi, iş hukuku avukatı istanbul, ibraname iptali, işçi hakları"
     },
-            {
+    {
       "id": "alt-isveren",
       "title": " ALT İŞVERENLİK İLİŞKİSİ",
       "description": "Alt işverenlik ilişkisi nasıl kurulur? Muvazaalı alt işverenlik ilişkisinin hukuki ve cezai sonuçları nelerdir?",
@@ -114,10 +144,16 @@
       "image": "post_images/isveren-post-image.jpeg",
       "date": "2025-12-06",
       "category": "İş Hukuku",
-      "tags": ["alt işveren", "iş hukuku", "muvazaa", "işveren sorumluluğu", "taşeron"],
+      "tags": [
+        "alt işveren",
+        "iş hukuku",
+        "muvazaa",
+        "işveren sorumluluğu",
+        "taşeron"
+      ],
       "keywords": "alt işverenlik, muvazaalı alt işveren, iş hukuku avukatı istanbul, taşeron işçi hakları, işveren sorumluluğu"
     },
-            {
+    {
       "id": "vesayet-vasi-dava",
       "title": "VESAYET DAVASI VE VASİ TAYİNİ",
       "description": "Hangi hallerde kişiye vasi atanır? Nasıl vasi atanılır?",
@@ -125,10 +161,16 @@
       "image": "post_images/vasiyet-vasi-dava-image.jpeg",
       "date": "2025-12-13",
       "category": "Aile Hukuku",
-      "tags": ["vesayet", "vasi tayini", "aile hukuku", "kısıtlılık", "mahkeme"],
+      "tags": [
+        "vesayet",
+        "vasi tayini",
+        "aile hukuku",
+        "kısıtlılık",
+        "mahkeme"
+      ],
       "keywords": "vesayet davası, vasi tayini, aile hukuku avukatı istanbul, kısıtlılık davası, vasi atama"
     },
-                {
+    {
       "id": "esasli-degisiklik",
       "title": "ÇALIŞMA KOŞULLARINDA ESASLI DEĞİŞİKLİK",
       "description": "İş ilişkisinde ücret, çalışma süresi, çalışma yeri, ünvan vb. çalışma koşullarında nasıl değişiklik yapılır? Yargıtay kararlarına göre neler esaslı değişiklik sayılır? Esaslı değişikliğin hukuki sonuçları nelerdir?",
@@ -136,10 +178,16 @@
       "image": "post_images/esasli-degisiklik-image.jpeg",
       "date": "2025-12-20",
       "category": "İş Hukuku",
-      "tags": ["esaslı değişiklik", "iş hukuku", "çalışma koşulları", "işçi hakları", "yargıtay"],
+      "tags": [
+        "esaslı değişiklik",
+        "iş hukuku",
+        "çalışma koşulları",
+        "işçi hakları",
+        "yargıtay"
+      ],
       "keywords": "esaslı değişiklik, çalışma koşulları değişikliği, iş hukuku avukatı istanbul, iş sözleşmesi değişikliği, işçi hakları"
     },
-                    {
+    {
       "id": "maas-haczi",
       "title": "MAAŞ HACZİ",
       "description": "Maaş haczi nedir? Hangi gelirler haczedilebilir? Maaş haczi nasıl kaldırılır?",
@@ -147,8 +195,32 @@
       "image": "post_images/maas-haczi.jpeg",
       "date": "2025-12-27",
       "category": "İcra ve İflas Hukuku",
-      "tags": ["maaş haczi", "icra hukuku", "borç", "haciz", "alacak"],
+      "tags": [
+        "maaş haczi",
+        "icra hukuku",
+        "borç",
+        "haciz",
+        "alacak"
+      ],
       "keywords": "maaş haczi, icra hukuku avukatı istanbul, haciz kaldırma, maaş haczi oranı, borç icra takibi"
+    },
+    {
+      "id": "ise-iade",
+      "title": "İŞE İADE DAVASI",
+      "description": "İşe iade davası nedir? Kimler, hangi koşullarda işe iade davası açabilir? Bu dava sonucunda hangi alacaklara hükmedilir?",
+      "file": "posts/ise-iade-davasi.md",
+      "image": "post_images/ise-iade-davasi-image.jpeg",
+      "date": "2025-01-04",
+      "category": "İş Hukuku",
+      "tags": [
+        "işe iade davası",
+        "haksız fesih",
+        "iş güvencesi",
+        "arabuluculuk",
+        "işçi hakları"
+      ],
+      "keywords": "işe iade davası, haksız fesih davası, iş güvencesi, işe iade arabuluculuk, işten çıkarma davası, iş hukuku avukatı istanbul, işe başlatmama tazminatı, boşta geçen süre ücreti"
+    }
     }
   ]
 }
