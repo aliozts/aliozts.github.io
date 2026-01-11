@@ -34,8 +34,14 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
 
                 // Canonical & URL
-                const canonicalEl = document.getElementById('canonical-link');
-                if (canonicalEl) canonicalEl.href = absoluteUrl;
+                let canonicalEl = document.getElementById('canonical-link');
+                if (!canonicalEl) {
+                    canonicalEl = document.createElement('link');
+                    canonicalEl.id = 'canonical-link';
+                    canonicalEl.rel = 'canonical';
+                    document.head.appendChild(canonicalEl);
+                }
+                canonicalEl.href = absoluteUrl;
                 const ogUrl = document.getElementById('og-url');
                 if (ogUrl) ogUrl.setAttribute('content', absoluteUrl);
 
