@@ -210,7 +210,7 @@
       "description": "İşe iade davası nedir? Kimler, hangi koşullarda işe iade davası açabilir? Bu dava sonucunda hangi alacaklara hükmedilir?",
       "file": "posts/ise-iade-davasi.md",
       "image": "post_images/ise-iade-davasi-image.jpeg",
-      "date": "2025-01-04",
+      "date": "2026-01-04",
       "category": "İş Hukuku",
       "tags": [
         "işe iade davası",
@@ -220,6 +220,23 @@
         "işçi hakları"
       ],
       "keywords": "işe iade davası, haksız fesih davası, iş güvencesi, işe iade arabuluculuk, işten çıkarma davası, iş hukuku avukatı istanbul, işe başlatmama tazminatı, boşta geçen süre ücreti"
+    },
+        {
+      "id": "mirasin-reddi",
+      "title": "MİRASIN REDDİ",
+      "description": "Mirasın reddi nedir, miras nasıl reddedilir? Reddi Miras Dilekçesi Örneği",
+      "file": "posts/mirasin-reddi.md",
+      "image": "post_images/mirasin-reddi-image.jpeg",
+      "date": "2026-01-11",
+      "category": "Miras Hukuku",
+      "tags": [
+        "mirasın reddi",
+        "reddi miras",
+        "miras hukuku",
+        "tereke",
+        "mirasçı hakları"
+      ],
+      "keywords": "mirasın reddi, reddi miras davası, miras hukuku avukatı istanbul, tereke reddi, miras bırakanın borçları, mirasçılık hakları"
     }
   ]
 }
