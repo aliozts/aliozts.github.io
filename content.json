@@ -228,15 +228,34 @@
       "file": "posts/mirasin-reddi.md",
       "image": "post_images/mirasin-reddi-image.jpeg",
       "date": "2026-01-11",
-      "category": "Miras Hukuku",
+      "category": "Aile Hukuku",
       "tags": [
         "mirasın reddi",
         "reddi miras",
         "miras hukuku",
+        "aile hukuku",
         "tereke",
         "mirasçı hakları"
       ],
       "keywords": "mirasın reddi, reddi miras davası, miras hukuku avukatı istanbul, tereke reddi, miras bırakanın borçları, mirasçılık hakları"
+    },
+            {
+      "id": "bosanma-protokolu",
+      "title": "BOŞANMA PROTOKOLÜ",
+      "description": "Anlaşmalı boşanmada protokol nasıl hazırlanır? Boşanma Protokol Örneği",
+      "file": "posts/bosanma-protokolu.md",
+      "image": "post_images/bosanma-protokolu-image.jpeg",
+      "date": "2026-01-18",
+      "category": "Aile Hukuku",
+      "tags": [
+        "boşanma protokolü",
+        "anlaşmalı boşanma",
+        "aile hukuku",
+        "boşanma",
+        "velayet",
+        "nafaka"
+      ],
+      "keywords": "anlaşmalı boşanma protokolü, boşanma protokolü nasıl hazırlanır, boşanma protokolü örneği, anlaşmalı boşanma davası, velayet düzenlemesi, nafaka anlaşması, boşanma sözleşmesi, aile hukuku avukatı istanbul"
     }
   ]
 }
