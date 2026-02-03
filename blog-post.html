@@ -8,6 +8,19 @@
     <link rel="icon" href="/images/buro_logo.png" sizes="any" />
     <link rel="manifest" href="/manifest.json" />
     <link rel="canonical" id="canonical-link" href="https://deniznazbaydar.av.tr/blog-post.html" />
+    <script>
+      // Update canonical link as early as possible based on URL params
+      (function() {
+        const params = new URLSearchParams(window.location.search);
+        const postId = params.get('id');
+        if (postId) {
+          const canonicalLink = document.getElementById('canonical-link');
+          if (canonicalLink) {
+            canonicalLink.href = 'https://deniznazbaydar.av.tr/blog-post.html?id=' + postId;
+          }
+        }
+      })();
+    </script>
     <link rel="alternate" href="https://deniznazbaydar.av.tr/blog.html" hreflang="tr-TR" />
 
     <!-- Open Graph / Twitter placeholders for dynamic fill -->

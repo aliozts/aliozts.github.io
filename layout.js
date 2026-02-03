@@ -4,6 +4,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const activeLink = body.dataset.activeLink || 'index.html';
 
     const setupLayout = (title, link) => {
+        // Normalize link for active class matching
+        const normalizedActiveLink = (link === 'index.html' || link === '/') ? '/' : link;
+
         // Only set the title if it's empty; otherwise keep the static/SEO-optimized one
         if (!document.title || document.title.trim() === '') {
             document.title = `${title} - Avukat Deniz Naz Baydar`;
@@ -22,7 +25,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 const navLinks = document.querySelectorAll('.nav-link');
                 navLinks.forEach(navLink => {
-                    if (navLink.getAttribute('href') === link) {
+                    const href = navLink.getAttribute('href');
+                    const normalizedHref = (href === 'index.html' || href === '/') ? '/' : href;
+                    if (normalizedHref === normalizedActiveLink) {
                         navLink.classList.add('active');
                     }
                 });
