@@ -4,9 +4,9 @@ Allow: /
 # Disallow test and development files
 Disallow: /test.html
 
-# Disallow scripts and data files
-Disallow: /*.js$
-Disallow: /*.json$
+# Allow scripts and data files for crawling and rendering
+Allow: /*.js$
+Allow: /*.json$
 
 # Disallow IDE files
 Disallow: /.idea/

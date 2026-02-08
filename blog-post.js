@@ -34,14 +34,11 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
 
                 // Canonical & URL
-                let canonicalEl = document.getElementById('canonical-link');
-                if (!canonicalEl) {
-                    canonicalEl = document.createElement('link');
-                    canonicalEl.id = 'canonical-link';
-                    canonicalEl.rel = 'canonical';
-                    document.head.appendChild(canonicalEl);
+                const absoluteUrl = `${BASE_URL}/blog-post.html?id=${post.id}`;
+                let canonicalEl = document.querySelector('link[rel="canonical"]');
+                if (canonicalEl) {
+                    canonicalEl.href = absoluteUrl;
                 }
-                canonicalEl.href = absoluteUrl;
                 const ogUrl = document.getElementById('og-url');
                 if (ogUrl) ogUrl.setAttribute('content', absoluteUrl);
 

@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const setupLayout = (title, link) => {
         // Normalize link for active class matching
-        const normalizedActiveLink = (link === 'index.html' || link === '/') ? '/' : link;
+        const normalizedActiveLink = (link === 'index.html' || link === '/' || link === '') ? '/' : link;
 
         // Only set the title if it's empty; otherwise keep the static/SEO-optimized one
         if (!document.title || document.title.trim() === '') {
