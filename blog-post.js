@@ -34,7 +34,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
 
                 // Canonical & URL
-                const absoluteUrl = `${BASE_URL}/blog-post.html?id=${post.id}`;
                 let canonicalEl = document.querySelector('link[rel="canonical"]');
                 if (canonicalEl) {
                     canonicalEl.href = absoluteUrl;
@@ -73,12 +72,28 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 // Fetch the markdown file content
                 fetch(post.file)
-                    .then(response => response.text())
+                    .then(response => {
+                        if (!response.ok) {
+                            throw new Error(`Markdown file not found: ${post.file}`);
+                        }
+                        return response.text();
+                    })
                     .then(markdown => {
                         const contentElement = document.getElementById('post-content');
                         if (contentElement) {
                             // Use marked library to convert markdown to HTML
-                            contentElement.innerHTML = marked.parse(markdown);
+                            if (typeof marked.parse === 'function') {
+                                contentElement.innerHTML = marked.parse(markdown);
+                            } else {
+                                contentElement.innerHTML = marked(markdown);
+                            }
+                        }
+                    })
+                    .catch(err => {
+                        console.error('Error fetching markdown:', err);
+                        const contentElement = document.getElementById('post-content');
+                        if (contentElement) {
+                            contentElement.innerHTML = `<p class="text-center text-red-500">Makale içeriği yüklenemedi: ${err.message}</p>`;
                         }
                     });
 
