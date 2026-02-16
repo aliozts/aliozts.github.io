@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <!-- Main Pages -->
   <url>
-    <loc>https://deniznazbaydar.av.tr/</loc>
+    <loc>https://deniznazbaydar.av.tr</loc>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -81,6 +81,10 @@
   </url>
   <url>
     <loc>https://deniznazbaydar.av.tr/blog-post.html?id=ortakligin-giderilmesi</loc>
+    <changefreq>yearly</changefreq>
+  </url>
+  <url>
+    <loc>https://deniznazbaydar.av.tr/blog-post.html?id=isim-degistirme</loc>
     <changefreq>yearly</changefreq>
   </url>
 </urlset>
