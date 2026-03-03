@@ -67,7 +67,6 @@
         .nav-link:hover, .nav-link.active { color: #1D4ED8; }
     </style>
 
-    <!-- Local Business (LegalService) JSON-LD -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -82,10 +81,27 @@
         "streetAddress": "Esentepe Mahallesi Talatpaşa Caddesi No: 5 / 1",
         "addressLocality": "Şişli",
         "addressRegion": "İstanbul",
-        "postalCode": "",
+        "postalCode": "34394",
         "addressCountry": "TR"
       },
-      "openingHours": ["Mo-Fr 09:00-18:00"]
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "41.0818",
+        "longitude": "29.0088"
+      },
+      "areaServed": [
+        {"@type": "City", "name": "İstanbul"},
+        {"@type": "State", "name": "Şişli"},
+        {"@type": "State", "name": "Levent"}
+      ],
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+          "opens": "09:00",
+          "closes": "18:00"
+        }
+      ]
     }
     </script>
 </head>
