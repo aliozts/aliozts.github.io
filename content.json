@@ -58,7 +58,7 @@
   "blogs": [
     {
       "id": "kidem-tazminati",
-      "title": " Kıdem Tazminatı",
+      "title": "Kıdem Tazminatı",
       "description": "İş ilişkisi sonlandıktan sonra işyerinden ayrılan işçi, nasıl kıdem tazminatını alabilir?",
       "file": "posts/kidem-tazminati.md",
       "date": "2025-11-01",
@@ -138,7 +138,7 @@
     },
     {
       "id": "alt-isveren",
-      "title": " ALT İŞVERENLİK İLİŞKİSİ",
+      "title": "ALT İŞVERENLİK İLİŞKİSİ",
       "description": "Alt işverenlik ilişkisi nasıl kurulur? Muvazaalı alt işverenlik ilişkisinin hukuki ve cezai sonuçları nelerdir?",
       "file": "posts/alt-isverenlik.md",
       "image": "post_images/isveren-post-image.jpeg",

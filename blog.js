@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     postElement.innerHTML = `
                         <h3 class="text-2xl font-bold mb-2">${post.title}</h3>
                         <p class="text-lg leading-relaxed">${post.description}</p>
-                        <a href="blog-post.html?id=${post.id}" class="text-blue-600 hover:underline mt-4 inline-block">Devamını Oku &rarr;</a>
+                        <a href="blog-posts/${post.id}.html" class="text-blue-600 hover:underline mt-4 inline-block">Devamını Oku &rarr;</a>
                     `;
                     blogContainer.appendChild(postElement);
                 });

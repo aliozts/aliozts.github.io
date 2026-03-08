@@ -65,8 +65,8 @@
       },
       "areaServed": [
         {"@type": "City", "name": "İstanbul"},
-        {"@type": "State", "name": "Şişli"},
-        {"@type": "State", "name": "Levent"}
+        {"@type": "AdministrativeArea", "name": "Şişli"},
+        {"@type": "AdministrativeArea", "name": "Levent"}
       ],
       "openingHoursSpecification": [
         {
@@ -78,6 +78,28 @@
       ]
     }
     </script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://deniznazbaydar.av.tr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Makaleler",
+          "item": "https://deniznazbaydar.av.tr/blog.html"
+        }
+      ]
+    }
+    </script>
+
 </head>
 <body class="bg-gray-50 text-gray-800" data-title="Makaleler" data-active-link="blog.html">
 
@@ -87,7 +109,7 @@
         <section class="relative h-96 flex items-center justify-center text-white rounded-lg overflow-hidden mb-12 mx-6">
             <img src="images/makaleler.jpeg" alt="Hukuk kitapları ve tokmak" class="absolute w-full h-full object-cover" loading="lazy" width="1920" height="500">
             <div class="absolute w-full h-full bg-black opacity-50"></div>
-            <h2 class="relative text-5xl font-bold">Makaleler</h2>
+            <h1 class="relative text-5xl font-bold">Makaleler</h1>
         </section>
 
         <section class="container mx-auto px-6 py-12">

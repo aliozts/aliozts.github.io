@@ -104,8 +104,8 @@ document.addEventListener('DOMContentLoaded', () => {
                     "headline": post.title,
                     "description": desc,
                     "image": [imgAbs],
-                    "datePublished": post.datePublished || undefined,
-                    "dateModified": post.dateModified || post.datePublished || undefined,
+                    "datePublished": post.date || undefined,
+                    "dateModified": post.dateModified || post.date || undefined,
                     "author": { "@type": "Person", "name": "Av. Deniz Naz Baydar" },
                     "publisher": {
                         "@type": "Organization",
