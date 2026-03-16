@@ -206,6 +206,18 @@ blogs.forEach(post => {
         '<!-- marked.js not needed for pre-rendered content -->'
     );
 
+    // Fix "Geri Dön" link for pre-rendered pages in subdirectory
+    renderedHtml = renderedHtml.replace(
+        'href="blog.html"',
+        'href="../blog.html"'
+    );
+
+    // Fix layout.js path for pre-rendered pages in subdirectory
+    renderedHtml = renderedHtml.replace(
+        'src="layout.js"',
+        'src="../layout.js"'
+    );
+
     // Write the pre-rendered HTML file
     const outputPath = path.join(outputDir, `${post.id}.html`);
     fs.writeFileSync(outputPath, renderedHtml);

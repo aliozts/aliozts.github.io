@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
             document.title = `${title} - Avukat Deniz Naz Baydar`;
         }
 
-        fetch('header.html')
+        fetch('/header.html')
             .then(response => {
                 if (!response.ok) throw new Error('Network response was not ok');
                 return response.text();
