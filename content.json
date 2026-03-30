@@ -68,9 +68,10 @@
         "işçi hakları",
         "iş hukuku",
         "işten çıkış",
-        "tazminat"
+        "tazminat",
+        "istanbul avukat"
       ],
-      "keywords": "kıdem tazminatı, işçi hakları, iş hukuku avukatı istanbul, kıdem tazminatı davası, işten çıkış tazminatı"
+      "keywords": "kıdem tazminatı, işçi hakları, iş hukuku avukatı istanbul, kıdem tazminatı davası, işten çıkış tazminatı, iş davası avukatı, istanbul avukat"
     },
     {
       "id": "kira-tespit-davasi",
@@ -84,9 +85,10 @@
         "kira hukuku",
         "kiracı hakları",
         "kira bedeli",
-        "dava"
+        "dava",
+        "istanbul avukat"
       ],
-      "keywords": "kira tespit davası, kira hukuku avukatı istanbul, kira bedeli tespiti, kiracı hakları, kira davası"
+      "keywords": "kira tespit davası, kira hukuku avukatı istanbul, kira bedeli tespiti, kiracı hakları, kira davası, kira tespiti nasıl yapılır, istanbul avukat"
     },
     {
       "id": "kaza-tazminat",
@@ -100,9 +102,10 @@
         "sigorta tazminatı",
         "maddi zarar",
         "araç hasarı",
-        "sigorta hukuku"
+        "sigorta hukuku",
+        "istanbul avukat"
       ],
-      "keywords": "trafik kazası tazminatı, sigorta hukuku avukatı istanbul, araç hasar tazminatı, kaza tazminat davası, maddi zarar"
+      "keywords": "trafik kazası tazminatı, sigorta hukuku avukatı istanbul, araç hasar tazminatı, kaza tazminat davası, maddi zarar, araç değer kaybı, istanbul avukat"
     },
     {
       "id": "anlasmali-bosanma",
@@ -116,9 +119,11 @@
         "boşanma davası",
         "aile hukuku",
         "boşanma protokolü",
-        "boşanma"
+        "boşanma",
+        "istanbul avukat",
+        "istanbul boşanma avukatı"
       ],
-      "keywords": "anlaşmalı boşanma davası, boşanma avukatı istanbul, boşanma protokolü, aile hukuku avukatı, boşanma süreci"
+      "keywords": "anlaşmalı boşanma davası, boşanma avukatı istanbul, boşanma protokolü, aile hukuku avukatı, boşanma süreci, istanbul boşanma avukatı"
     },
     {
       "id": "is-ibraname",
@@ -132,9 +137,10 @@
         "işçi hakları",
         "iş hukuku",
         "iş sözleşmesi",
-        "işten çıkış"
+        "işten çıkış",
+        "istanbul avukat"
       ],
-      "keywords": "ibraname geçerliliği, işçi ibranamesi, iş hukuku avukatı istanbul, ibraname iptali, işçi hakları"
+      "keywords": "ibraname geçerliliği, işçi ibranamesi, iş hukuku avukatı istanbul, ibraname iptali, işçi hakları, istanbul avukat"
     },
     {
       "id": "alt-isveren",
@@ -149,9 +155,10 @@
         "iş hukuku",
         "muvazaa",
         "işveren sorumluluğu",
-        "taşeron"
+        "taşeron",
+        "istanbul avukat"
       ],
-      "keywords": "alt işverenlik, muvazaalı alt işveren, iş hukuku avukatı istanbul, taşeron işçi hakları, işveren sorumluluğu"
+      "keywords": "alt işverenlik, muvazaalı alt işveren, iş hukuku avukatı istanbul, taşeron işçi hakları, işveren sorumluluğu, istanbul avukat"
     },
     {
       "id": "vesayet-vasi-dava",
@@ -166,9 +173,10 @@
         "vasi tayini",
         "aile hukuku",
         "kısıtlılık",
-        "mahkeme"
+        "mahkeme",
+        "istanbul avukat"
       ],
-      "keywords": "vesayet davası, vasi tayini, aile hukuku avukatı istanbul, kısıtlılık davası, vasi atama"
+      "keywords": "vesayet davası, vasi tayini, aile hukuku avukatı istanbul, kısıtlılık davası, vasi atama, istanbul avukat"
     },
     {
       "id": "esasli-degisiklik",
@@ -183,9 +191,10 @@
         "iş hukuku",
         "çalışma koşulları",
         "işçi hakları",
-        "yargıtay"
+        "yargıtay",
+        "istanbul avukat"
       ],
-      "keywords": "esaslı değişiklik, çalışma koşulları değişikliği, iş hukuku avukatı istanbul, iş sözleşmesi değişikliği, işçi hakları"
+      "keywords": "esaslı değişiklik, çalışma koşulları değişikliği, iş hukuku avukatı istanbul, iş sözleşmesi değişikliği, işçi hakları, istanbul avukat"
     },
     {
       "id": "maas-haczi",
@@ -200,9 +209,11 @@
         "icra hukuku",
         "borç",
         "haciz",
-        "alacak"
+        "alacak",
+        "istanbul avukat",
+        "istanbul icra avukatı"
       ],
-      "keywords": "maaş haczi, icra hukuku avukatı istanbul, haciz kaldırma, maaş haczi oranı, borç icra takibi"
+      "keywords": "maaş haczi, icra hukuku avukatı istanbul, haciz kaldırma, maaş haczi oranı, borç icra takibi, istanbul icra avukatı"
     },
     {
       "id": "ise-iade",
@@ -217,11 +228,12 @@
         "haksız fesih",
         "iş güvencesi",
         "arabuluculuk",
-        "işçi hakları"
+        "işçi hakları",
+        "istanbul avukat"
       ],
-      "keywords": "işe iade davası, haksız fesih davası, iş güvencesi, işe iade arabuluculuk, işten çıkarma davası, iş hukuku avukatı istanbul, işe başlatmama tazminatı, boşta geçen süre ücreti"
+      "keywords": "işe iade davası, haksız fesih davası, iş güvencesi, işe iade arabuluculuk, işten çıkarma davası, iş hukuku avukatı istanbul, işe başlatmama tazminatı, boşta geçen süre ücreti, istanbul avukat"
     },
-        {
+    {
       "id": "mirasin-reddi",
       "title": "MİRASIN REDDİ",
       "description": "Mirasın reddi nedir, miras nasıl reddedilir? Reddi Miras Dilekçesi Örneği",
@@ -235,11 +247,12 @@
         "miras hukuku",
         "aile hukuku",
         "tereke",
-        "mirasçı hakları"
+        "mirasçı hakları",
+        "istanbul avukat"
       ],
-      "keywords": "mirasın reddi, reddi miras davası, miras hukuku avukatı istanbul, tereke reddi, miras bırakanın borçları, mirasçılık hakları"
+      "keywords": "mirasın reddi, reddi miras davası, miras hukuku avukatı istanbul, tereke reddi, miras bırakanın borçları, mirasçılık hakları, istanbul avukat"
     },
-            {
+    {
       "id": "bosanma-protokolu",
       "title": "BOŞANMA PROTOKOLÜ",
       "description": "Anlaşmalı boşanmada protokol nasıl hazırlanır? Boşanma Protokol Örneği",
@@ -253,11 +266,13 @@
         "aile hukuku",
         "boşanma",
         "velayet",
-        "nafaka"
+        "nafaka",
+        "istanbul avukat",
+        "istanbul boşanma avukatı"
       ],
-      "keywords": "anlaşmalı boşanma protokolü, boşanma protokolü nasıl hazırlanır, boşanma protokolü örneği, anlaşmalı boşanma davası, velayet düzenlemesi, nafaka anlaşması, boşanma sözleşmesi, aile hukuku avukatı istanbul"
+      "keywords": "anlaşmalı boşanma protokolü, boşanma protokolü nasıl hazırlanır, boşanma protokolü örneği, anlaşmalı boşanma davası, velayet düzenlemesi, nafaka anlaşması, boşanma sözleşmesi, aile hukuku avukatı istanbul, istanbul boşanma avukatı"
     },
-                {
+    {
       "id": "ihtiyac-tahliye-davasi",
       "title": "İHTİYAÇ NEDENİYLE TAHLİYE DAVASI",
       "description": "Yargıtay kararlarına göre ihtiyaç nedir? Kiralanan nasıl tahliye edilir?",
@@ -271,9 +286,11 @@
         "tahliye davası",
         "kiraya veren hakları",
         "kiracı hakları",
-        "TBK"
+        "TBK",
+        "istanbul avukat",
+        "istanbul kira avukatı"
       ],
-      "keywords": "ihtiyaç tahliye davası, tahliye davası nasıl açılır, kira hukuku avukatı istanbul, kiralananın tahliyesi, kiraya veren ihtiyacı, yeni malik tahliye davası, arabuluculuk kira, zorunlu arabuluculuk, TBK 350, TBK 351"
+      "keywords": "ihtiyaç tahliye davası, tahliye davası nasıl açılır, kira hukuku avukatı istanbul, kiralananın tahliyesi, kiraya veren ihtiyacı, yeni malik tahliye davası, arabuluculuk kira, zorunlu arabuluculuk, TBK 350, TBK 351, istanbul kira avukatı"
     },
     {
       "id": "on-yillik-kira-tahliye",
@@ -288,9 +305,11 @@
         "kira hukuku",
         "tahliye davası",
         "ihtarname",
-        "TBK 347"
+        "TBK 347",
+        "istanbul avukat",
+        "istanbul kira avukatı"
       ],
-      "keywords": "10 yıllık kiracı tahliyesi, TBK 347 tahliye, kira sözleşmesi feshi, uzama süresi tahliye, kira hukuku avukatı istanbul, tahliye ihtarname süresi, belirsiz süreli kira tahliye, 10 yıl tahliye şartları"
+      "keywords": "10 yıllık kiracı tahliyesi, TBK 347 tahliye, kira sözleşmesi feshi, uzama süresi tahliye, kira hukuku avukatı istanbul, tahliye ihtarname süresi, belirsiz süreli kira tahliye, 10 yıl tahliye şartları, istanbul kira avukatı"
     },
     {
       "id": "ortakligin-giderilmesi",
@@ -306,9 +325,11 @@
         "miras paylaşımı",
         "gayrimenkul hukuku",
         "arabuluculuk",
-        "satış yoluyla ortaklığın giderilmesi"
+        "satış yoluyla ortaklığın giderilmesi",
+        "istanbul avukat",
+        "istanbul gayrimenkul avukatı"
       ],
-      "keywords": "ortaklığın giderilmesi davası, izale-i şuyu, miras kalan taşınmazın satışı, gayrimenkul avukatı istanbul, ortaklığın giderilmesi arabuluculuk, aynen taksim, satış yoluyla ortaklığın giderilmesi"
+      "keywords": "ortaklığın giderilmesi davası, izale-i şuyu, miras kalan taşınmazın satışı, gayrimenkul avukatı istanbul, ortaklığın giderilmesi arabuluculuk, aynen taksim, satış yoluyla ortaklığın giderilmesi, istanbul gayrimenkul avukatı"
     },
     {
       "id": "isim-degistirme",
@@ -323,9 +344,10 @@
         "soyisim değiştirme",
         "aile hukuku",
         "nüfus davası",
-        "haklı neden"
+        "haklı neden",
+        "istanbul avukat"
       ],
-      "keywords": "isim değiştirme davası, soyisim değiştirme davası, isim değişikliği nasıl yapılır, nüfus müdürlüğü dava, aile hukuku avukatı istanbul, adın değiştirilmesi davası"
+      "keywords": "isim değiştirme davası, soyisim değiştirme davası, isim değişikliği nasıl yapılır, nüfus müdürlüğü dava, aile hukuku avukatı istanbul, adın değiştirilmesi davası, istanbul avukat"
     },
     {
       "id": "kira-tespiti",
@@ -341,9 +363,11 @@
         "kira hukuku",
         "5 yıl kira artışı",
         "kira tespit davası şartları",
-        "hakkaniyet indirimi"
+        "hakkaniyet indirimi",
+        "istanbul avukat",
+        "istanbul kira avukatı"
       ],
-      "keywords": "kira bedelinin tespiti davası, kira artış davası, 5 yıl kira tespiti, kira hukuku avukatı istanbul, kira tespit davası arabuluculuk, kira bedeli artırımı, kira tespit harcı"
+      "keywords": "kira bedelinin tespiti davası, kira artış davası, 5 year kira tespiti, kira hukuku avukatı istanbul, kira tespit davası arabuluculuk, kira bedeli artırımı, kira tespit harcı, istanbul kira avukatı"
     },
     {
       "id": "tahliye-taahhutnamesi",
@@ -359,9 +383,11 @@
         "kira hukuku",
         "tahliye davası",
         "kiracı tahliyesi",
-        "TBK"
+        "TBK",
+        "istanbul avukat",
+        "istanbul kira avukatı"
       ],
-      "keywords": "tahliye taahhütnamesi, tahliye taahhüdü geçerlilik şartları, kira hukuku avukatı istanbul, tahliye davası süreci, noterden tahliye taahhütnamesi, kira sözleşmesi tahliye"
+      "keywords": "tahliye taahhütnamesi, tahliye taahhüdü geçerlilik şartları, kira hukuku avukatı istanbul, tahliye davası süreci, noterden tahliye taahhütnamesi, kira sözleşmesi tahliye, istanbul kira avukatı"
     },
     {
       "id": "ihtar-tahliye-davasi",
@@ -377,9 +403,11 @@
         "kira hukuku",
         "kira bedeli gecikmesi",
         "TBK 352",
-        "ihtarname"
+        "ihtarname",
+        "istanbul avukat",
+        "istanbul kira avukatı"
       ],
-      "keywords": "iki haklı ihtar tahliye davası, haklı ihtar şartları, kira hukuku avukatı istanbul, kira bedeli gecikmesi tahliye, TBK 352, noter ihtarnamesi, tahliye icra takibi, arabuluculuk kira"
+      "keywords": "iki haklı ihtar tahliye davası, haklı ihtar şartları, kira hukuku avukatı istanbul, kira bedeli gecikmesi tahliye, TBK 352, noter ihtarnamesi, tahliye icra takibi, arabuluculuk kira, istanbul kira avukatı"
     },
     {
       "id": "aldatma-bosanma",
@@ -395,9 +423,11 @@
         "boşanma davası",
         "aile hukuku",
         "tazminat",
-        "sadakat yükümlülüğü"
+        "sadakat yükümlülüğü",
+        "istanbul avukat",
+        "istanbul boşanma avukatı"
       ],
-      "keywords": "aldatma sebebiyle boşanma, zina nedeniyle boşanma davası, boşanma avukatı istanbul, aldatma ispatı, boşanma davası delilleri, aile hukuku avukatı"
+      "keywords": "aldatma sebebiyle boşanma, zina nedeniyle boşanma davası, boşanma avukatı istanbul, aldatma ispatı, boşanma davası delilleri, aile hukuku avukatı, istanbul boşanma avukatı"
     },
     {
       "id": "ilamsiz-icra-takibi",
@@ -413,9 +443,11 @@
         "borca itiraz dilekçesi",
         "icra hukuku",
         "ödeme emri",
-        "7 gün itiraz süresi"
+        "7 gün itiraz süresi",
+        "istanbul avukat",
+        "istanbul icra avukatı"
       ],
-      "keywords": "ilamsız icra takibi nedir, icra takibine itiraz nasıl yapılır, borca itiraz dilekçesi örneği, icra müdürlüğü itiraz, ödeme emrine itiraz süresi, icra hukuku avukatı istanbul"
+      "keywords": "ilamsız icra takibi nedir, icra takibine itiraz nasıl yapılır, borca itiraz dilekçesi örneği, icra müdürlüğü itiraz, ödeme emrine itiraz süresi, icra hukuku avukatı istanbul, istanbul icra avukatı"
     },
     {
       "id": "gizli-delil-bosanma",
@@ -432,9 +464,11 @@
         "video kaydı delil",
         "aile hukuku",
         "yargıtay kararları",
-        "özel hayatın gizliliği"
+        "özel hayatın gizliliği",
+        "istanbul avukat",
+        "istanbul boşanma avukatı"
       ],
-      "keywords": "gizli delil boşanma davası, ses kaydı boşanma davasında delil mi, video kaydı delil sayılır mı, boşanma avukatı istanbul, aile hukuku avukatı, hukuka aykırı delil, özel hayatın gizliliği yargıtay"
+      "keywords": "gizli delil boşanma davası, ses kaydı boşanma davasında delil mi, video kaydı delil sayılır mı, boşanma avukatı istanbul, aile hukuku avukatı, hukuka aykırı delil, özel hayatın gizliliği yargıtay, istanbul boşanma avukatı"
     }
   ]
 }
