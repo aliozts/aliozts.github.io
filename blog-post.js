@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 const BASE_URL = 'https://deniznazbaydar.av.tr';
                 const absoluteUrl = `${BASE_URL}/blog-post.html?id=${post.id}`;
                 const desc = post.description || '';
-                const imgAbs = post.image ? `${BASE_URL}/${post.image}` : `${BASE_URL}/images/portrait.jpeg`;
+                const imgAbs = post.image ? `${BASE_URL}/${post.image}` : `${BASE_URL}/images/portrait.webp`;
 
                 // Title & heading
                 document.title = `${post.title} - Av. Deniz Naz Baydar`;
@@ -112,7 +112,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         "name": "Av. Deniz Naz Baydar",
                         "logo": {
                             "@type": "ImageObject",
-                            "url": `${BASE_URL}/images/buro_logo.png`
+                            "url": `${BASE_URL}/images/buro_logo.webp`
                         }
                     },
                     "mainEntityOfPage": absoluteUrl
