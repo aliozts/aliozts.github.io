@@ -20,7 +20,7 @@ blogs.forEach(post => {
     const BASE_URL = 'https://deniznazbaydar.av.tr';
     const absoluteUrl = `${BASE_URL}/blog-posts/${post.id}.html`;
     const desc = post.description || '';
-    const imgAbs = post.image ? `${BASE_URL}/${post.image}` : `${BASE_URL}/images/portrait.jpeg`;
+    const imgAbs = post.image ? `${BASE_URL}/${post.image}` : `${BASE_URL}/images/portrait.webp`;
 
     // Read and convert markdown to HTML
     let markdownContent = '';
@@ -187,7 +187,7 @@ blogs.forEach(post => {
             "name": "Av. Deniz Naz Baydar",
             "logo": {
                 "@type": "ImageObject",
-                "url": `${BASE_URL}/images/buro_logo.png`
+                "url": `${BASE_URL}/images/buro_logo.webp`
             }
         },
         "mainEntityOfPage": absoluteUrl
