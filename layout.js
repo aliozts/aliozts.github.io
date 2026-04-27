@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const setupLayout = (title, link) => {
         // Normalize link for active class matching
-        const normalizedActiveLink = (link === 'index.html' || link === '/' || link === '') ? '/' : link;
+        const normalizedActiveLink = (link === 'index.html' || link === '/' || link === '') ? '/' : (link.startsWith('/') ? link : '/' + link);
 
         // Only set the title if it's empty; otherwise keep the static/SEO-optimized one
         if (!document.title || document.title.trim() === '') {
@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 const navLinks = document.querySelectorAll('.nav-link');
                 navLinks.forEach(navLink => {
                     const href = navLink.getAttribute('href');
-                    const normalizedHref = (href === 'index.html' || href === '/') ? '/' : href;
+                    const normalizedHref = (href === 'index.html' || href === '/') ? '/' : (href.startsWith('/') ? href : '/' + href);
                     if (normalizedHref === normalizedActiveLink) {
                         navLink.classList.add('active');
                     }

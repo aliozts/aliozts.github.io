@@ -59,7 +59,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap" rel="stylesheet">
     <style>
-        body { font-family: 'Lora', serif; }
+        body { font-family: 'Lora', serif; font-display: swap; }
         .nav-link { transition: color 0.3s ease; }
         .nav-link:hover, .nav-link.active { color: #1D4ED8; }
     </style>
@@ -73,6 +73,8 @@
       "image": "https://deniznazbaydar.av.tr/images/portrait.jpeg",
       "logo": "https://deniznazbaydar.av.tr/images/buro_logo.png",
       "telephone": "+905343349235",
+      "priceRange": "$$",
+      "knowsAbout": ["Boşanma Hukuku", "Kira Hukuku", "İş Hukuku", "Ticaret Hukuku", "Sigorta Hukuku", "İcra Hukuku"],
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "Esentepe Mahallesi Talatpaşa Caddesi No: 5 / 1",
@@ -150,6 +152,54 @@
       "position": 3,
       "name": "MAAŞ HACZİ",
       "item": "https://deniznazbaydar.av.tr/blog-posts/maas-haczi.html"
+    }
+  ]
+}
+    </script>
+    <script type="application/ld+json">
+    {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "HANGİ GELİRLER HACZEDİLEBİLİR?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Borçlunun aylık maaşı, ikramiyesi, primi, fazla mesai ücreti gibi çalışma karşılığı kazandığı gelirleri haczedilebilirdir."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Emekli Maaşı Haczedilir mi?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Emekli maaşı, belli şartlar altında haczedilebilmektedir. Eğer borçlunun nafaka veya SGK prim borcu varsa, bir kısmına haciz konulabilir. Nafaka ve prim borcu dışında borçlunun maaşına haciz konmasına izin verdiği durumlarda da, emekli maaşı haczedilebilir."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Kıdem ve İhbar Tazminatı Gibi İşçilik Alacakları Haczedilir mi?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Borçlunun hak kazandığı kıdem ve ihbar tazminatlarının tamamı haczedilebilir. Burada dikkat edilmesi gereken husus, bu alacakların ücret alacağı olmadığı, dolayısıyla İş Kanunu ile getirilen ¼ sınırlamasının işçilik tazminatları için uygulanmayacağıdır. Dolayısıyla işçinin hesabına yatan kıdem veya ihbar tazminatı gibi alacakların tamamına haciz konulması mümkündür."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "MAAŞ HACZİ NASIL UYGULANIR?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Maaş haczinin uygulanması için öncelikle alacaklının borçlu aleyhine icra takibi başlatması gerekmektedir. Takip başlatılmasının ardından, icra müdürlüğü tarafından ilamsız takiplerde ödeme emri veya ilama dayanan takiplerde icra emri hazırlanır ve borçluya tebliğ edilir. Borçlu tarafından itiraz edilmemesi halinde takip kesinleştirilir. Kesinleşen icra takibinde ise artık haciz aşamasına geçilir."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Birden Fazla Maaş Haciz Yazısı Gelirse İşveren Nasıl Ödeme Yapmalıdır?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Uygulamada sık karşılaşılan bir durum da borçlu aleyhine birden çok alacaklı tarafından takip başlatılmış olmasıdır."
+      }
     }
   ]
 }

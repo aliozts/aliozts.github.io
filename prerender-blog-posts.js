@@ -150,6 +150,28 @@ blogs.forEach(post => {
         `<article id="post-content" class="text-lg md:text-xl leading-relaxed md:leading-loose space-y-6 max-w-4xl mx-auto text-justify">\n${htmlContent}\n                </article>`
     );
 
+    // Extract potential FAQ items from markdown content
+    const faqItems = [];
+    const questionMatches = markdownContent.matchAll(/\*\*([^*?]+\?)\*\*/g);
+    for (const match of questionMatches) {
+        const question = match[1].trim();
+        // Look for the next paragraph after the question
+        const startIndex = match.index + match[0].length;
+        const remainingContent = markdownContent.substring(startIndex).trim();
+        const answerMatch = remainingContent.split('\n\n')[0].trim();
+        
+        if (answerMatch && answerMatch.length > 20 && answerMatch.length < 500) {
+            faqItems.push({
+                "@type": "Question",
+                "name": question,
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": answerMatch.replace(/\*\*/g, '').replace(/·/g, '').trim()
+                }
+            });
+        }
+    }
+
     // Add JSON-LD structured data
     const jsonLd = {
         "@context": "https://schema.org",
@@ -181,6 +203,19 @@ blogs.forEach(post => {
         ]
     };
 
+    let faqLdScript = '';
+    if (faqItems.length > 0) {
+        const faqLd = {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": faqItems.slice(0, 5) // Limit to first 5 FAQ items
+        };
+        faqLdScript = `
+    <script type="application/ld+json">
+    ${JSON.stringify(faqLd, null, 2)}
+    </script>`;
+    }
+
     // Insert JSON-LD before </head>
     const jsonLdScript = `
     <script type="application/ld+json">
@@ -188,7 +223,7 @@ blogs.forEach(post => {
     </script>
     <script type="application/ld+json">
     ${JSON.stringify(breadcrumbLd, null, 2)}
-    </script>
+    </script>${faqLdScript}
 </head>`;
 
     renderedHtml = renderedHtml.replace('</head>', jsonLdScript);

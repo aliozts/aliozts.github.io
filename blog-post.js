@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
         return;
     }
 
-    fetch('content.json')
+    fetch('/content.json')
         .then(response => response.json())
         .then(data => {
             const post = data.blogs.find(p => p.id === postId);

@@ -59,7 +59,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap" rel="stylesheet">
     <style>
-        body { font-family: 'Lora', serif; }
+        body { font-family: 'Lora', serif; font-display: swap; }
         .nav-link { transition: color 0.3s ease; }
         .nav-link:hover, .nav-link.active { color: #1D4ED8; }
     </style>
@@ -73,6 +73,8 @@
       "image": "https://deniznazbaydar.av.tr/images/portrait.jpeg",
       "logo": "https://deniznazbaydar.av.tr/images/buro_logo.png",
       "telephone": "+905343349235",
+      "priceRange": "$$",
+      "knowsAbout": ["Boşanma Hukuku", "Kira Hukuku", "İş Hukuku", "Ticaret Hukuku", "Sigorta Hukuku", "İcra Hukuku"],
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "Esentepe Mahallesi Talatpaşa Caddesi No: 5 / 1",
@@ -150,6 +152,46 @@
       "position": 3,
       "name": "İKİ HAKLI İHTAR NEDENİYLE TAHLİYE DAVASI",
       "item": "https://deniznazbaydar.av.tr/blog-posts/ihtar-tahliye-davasi.html"
+    }
+  ]
+}
+    </script>
+    <script type="application/ld+json">
+    {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "HAKLI NEDENLE İHTARIN ŞARTLARI NELERDİR?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "İhtarın haklı sayılabilmesi için; ihtarın yazılı olması, ihtarın kiracıya uygun şekilde tebliğ edilmesi, kira bedelinin ihtarın tebliği sırasında ödenmemiş olması, ihtarın bir kira yılı içinde iki farklı aya ait olması şeklinde koşulların oluşması gerekir. Bu şartların varlığı halinde, kira yılının bitiminden itibaren 1 ay içinde kiracı aleyhine tahliye davası açılabilir."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "TAHLİYE TALEPLİ İCRA TAKİBİ, HAKLI İHTAR YERİNE GEÇER Mİ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Kiracının temerrüdü sebebiyle icra müdürlükleri aracılığıyla kiracıya gönderilen örnek-13 (Tahliye İhtarlı) ödeme emri, TBK m.352/2 anlamında haklı ihtar sayılmaktadır. Uygulamada tahliye talepli icra takibi yolu, pratik olması sebebiyle sıklıkla kullanılmaktadır."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "İKİ HAKLI İHTAR NEDENİYLE TAHLİYE DAVASI NE ZAMAN AÇILIR?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "İki haklı ihtar nedeniyle tahliye davası, ihtarların yapıldığı kira yılının bitiminden itibaren bir ay içinde açılmalıdır."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "TAHLİYE DAVASI SÜRECİ NASIL İLERLER?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Kiracının kirasını süresi içinde ödememesi ve iki haklı ihtar çekilmesine sebebiyet vermesi halinde, kiraya veren artık tahliye davası açabilecektir."
+      }
     }
   ]
 }
