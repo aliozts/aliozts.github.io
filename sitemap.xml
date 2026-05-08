@@ -3,31 +3,31 @@
   <!-- Main Pages -->
   <url>
     <loc>https://deniznazbaydar.av.tr</loc>
-    <lastmod>2026-04-27</lastmod>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://deniznazbaydar.av.tr/about.html</loc>
-    <lastmod>2026-04-27</lastmod>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>yearly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://deniznazbaydar.av.tr/portfolio.html</loc>
-    <lastmod>2026-04-27</lastmod>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>yearly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://deniznazbaydar.av.tr/blog.html</loc>
-    <lastmod>2026-04-27</lastmod>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://deniznazbaydar.av.tr/contact.html</loc>
-    <lastmod>2026-04-27</lastmod>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>yearly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -168,6 +168,12 @@
   <url>
     <loc>https://deniznazbaydar.av.tr/blog-posts/bosanma-maddi-manevi-tazminat.html</loc>
     <lastmod>2026-04-27</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://deniznazbaydar.av.tr/blog-posts/muris-muvazaasi-tapu-iptal-ve-tescil-davasi.html</loc>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>yearly</changefreq>
     <priority>1.0</priority>
   </url>
